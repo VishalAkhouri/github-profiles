@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img {
+    height: 100px;
+    width: 100px;
+}
+
+.card-details {
+    padding: 20px;
+    align-content: center;
+}
+
+.card-details .card-details-name {
+    font-weight: bold;
+}
+
+.card-details .card-details-company {
+    font-style: italic;
+}
