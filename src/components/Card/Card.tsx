@@ -2,15 +2,7 @@
 // class component since this Card component will have state
 import React from 'react';
 import './Card.css';
-
-interface IProfileProps {
-    avatar_url?: string;
-    name?: string;
-    company?: string;
-}
-
-interface IProfileState {
-}
+import '../../common/models/props.model';
 
 class Card extends React.Component<IProfileProps, IProfileState> {
 
